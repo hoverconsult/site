@@ -25,3 +25,6 @@ These locally stored presentation images were downloaded from Unsplash on 22 Aug
 - `protection.jpg`: Asurnipal, “DC inverter and DC surge protection device photovoltaic,” CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Lauterach-DC-Inverter_and_DC-surge_protection_device-photovoltaic-01ASD.jpg
 - `solar-pump.jpg`: Shailsh Telang, “Solar water pump and well,” CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Solar_water_pump_and_well.jpg
 - `vfd-3.jpg`: Suyash.dwivedi, “Variable Frequency Drive (VFD) - 3,” CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Variable_Frequency_Drive_(VFD)_-_3.jpeg
+# Project-generated imagery
+
+- `../solar-for-ev-ghana-v1.png` and `../solar-for-ev-ghana-v1.webp` — generated specifically for Hover Consult on 3 September 2026 for the Solar for EV service and Clinic guide.
