@@ -17,7 +17,7 @@
       amount.textContent=(isAnnual?annual:monthly)>0?money(isAnnual?annual:monthly):'Price confirmed at checkout';suffix.textContent=isAnnual?' / year':' / month';
       saving.textContent=isAnnual?'Pay the equivalent of nine monthly payments — a 25% saving versus paying monthly for 12 months.':'Flexible 30-day access with monthly renewal.';
       const url=isAnnual?cfg.annualPaymentUrl:cfg.monthlyPaymentUrl;
-      checkout.textContent=isAnnual?'Pay annually with Paystack':'Pay monthly with Paystack';checkout.href=url||'#';checkout.classList.toggle('disabled',!url);checkout.setAttribute('aria-disabled',String(!url));
+      checkout.textContent=isAnnual?'Continue to annual Paystack checkout':'Continue to monthly Paystack checkout';checkout.href=url||'#';checkout.classList.toggle('disabled',!url);checkout.setAttribute('aria-disabled',String(!url));
       note.textContent=url?'Secure payment is completed on Paystack.':'Annual checkout will open after Hover Consult publishes the matching fixed-price Paystack page.';
     }
     buttons.forEach(b=>b.addEventListener('click',()=>render(b.dataset.billing)));
