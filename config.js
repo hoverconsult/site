@@ -10,7 +10,7 @@ window.HOVER_CONFIG = {
     annualBaseMonths: 10,
     annualDiscountRate: 0.10,
     // A separate fixed-amount Paystack page is required for the annual charge.
-    annualPaymentUrl: ""
+    annualPaymentUrl: "https://paystack.shop/pay/lik315ji3m"
   },
   whatsappNumber: "233244358113",
   paymentUrl: "https://paystack.shop/pay/ojqoo4kneu",
