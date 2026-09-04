@@ -1,6 +1,17 @@
 window.HOVER_CONFIG = {
   // Replace this value after deploying apps-script/Code.gs as a Google Apps Script web app.
   appsScriptUrl: "https://script.google.com/macros/s/AKfycbzxxYBldvn3oTpYe5Ll2yhPGtNLd9owyfz-q7kkVW-YNdDKiFdwvRa-nP98tglcLPKc/exec",
+  // Set after deploying the EPCPro.gs and EPCPortal.html version of the backend.
+  epcPortalUrl: "",
+  epcSubscription: {
+    // Enter the fixed monthly amount shown on the Paystack page before publishing prices.
+    monthlyAmountGhs: null,
+    monthlyPaymentUrl: "https://paystack.shop/pay/rpkykjmmzb",
+    annualBaseMonths: 10,
+    annualDiscountRate: 0.10,
+    // A separate fixed-amount Paystack page is required for the annual charge.
+    annualPaymentUrl: ""
+  },
   whatsappNumber: "233244358113",
   paymentUrl: "https://paystack.shop/pay/ojqoo4kneu",
   consultationFee: "GHS 100",
